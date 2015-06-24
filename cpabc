@@ -30,7 +30,7 @@ swig -java -package com.airbitz.api \
         -outdir src/main/java/com/airbitz/api \
         -o src/main/jni/ABC_wrap.c src/main/jni/ABC.i
 cd src/main/jni/
-$BUILD_DIR/ndk/android-ndk-r10d/ndk-build
+$BUILD_DIR/ndk/android-ndk-r10e/ndk-build
 
 cp ../libs/armeabi/libairbitz.so ../jniLibs/armeabi/
 # cp ../libs/x86/libairbitz.so ../jniLibs/x86/
